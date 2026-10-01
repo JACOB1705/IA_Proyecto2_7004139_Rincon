@@ -1,0 +1,35 @@
+{
+ "SVM: HOG sin preprocesar": {
+  "cv_acc": 0.9910020389370119,
+  "ext_acc": 0.675
+ },
+ "SVM: HOG + CLAHE + blur": {
+  "cv_acc": 0.9907530994566329,
+  "ext_acc": 0.725
+ },
+ "CNN sin augmentation": {
+  "cv_acc": 0.9915,
+  "params": 1173473,
+  "ext_acc": 0.75
+ },
+ "CNN aug suave": {
+  "cv_acc": 0.97075,
+  "params": 1173473,
+  "ext_acc": 0.85
+ },
+ "CNN aug fuerte": {
+  "cv_acc": 0.95825,
+  "params": 1173473,
+  "ext_acc": 0.875
+ },
+ "CNN ancho 16": {
+  "cv_acc": 0.97275,
+  "params": 294129,
+  "ext_acc": 0.875
+ },
+ "CNN ancho 64": {
+  "cv_acc": 0.97075,
+  "params": 4687809,
+  "ext_acc": 0.85
+ }
+}
